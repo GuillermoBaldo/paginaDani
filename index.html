@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de Inyección de Termoplásticos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Inyección de Termoplásticos</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Autopartes</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="productos">
+        <h2>Nuestro Catálogo de Autopartes</h2>
+        <div class="carrusel-container">
+            <button class="prev" onclick="moverCarrusel(-1)">&#10094;</button>
+            <div class="carrusel">
+                <div class="producto">
+                    <img src="https://images.unsplash.com/photo-1580657018956-12d1b7cfd8c2" alt="Parachoques delantero">
+                    <h3>Parachoques Delantero</h3>
+                    <p>Fabricado con inyección de termoplásticos, resistente a impactos y desgaste.</p>
+                    <span>$150.00</span>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="https://images.unsplash.com/photo-1598743377457-83b1a5f53d1e" alt="Panel de Puerta">
+                    <h3>Panel de Puerta</h3>
+                    <p>Panel de puerta de alta calidad, ligero y duradero, fabricado en termoplásticos.</p>
+                    <span>$85.00</span>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="https://images.unsplash.com/photo-1613452238094-3ed3d15703f4" alt="Espejo Lateral">
+                    <h3>Espejo Lateral</h3>
+                    <p>Espejo lateral diseñado para automóviles, resistente a golpes y rayos UV.</p>
+                    <span>$60.00</span>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="https://images.unsplash.com/photo-1565860486513-7f56d1967c1e" alt="Rejilla del Radiador">
+                    <h3>Rejilla del Radiador</h3>
+                    <p>Rejilla frontal para radiador fabricada con termoplásticos resistentes a la corrosión.</p>
+                    <span>$95.00</span>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <img src="https://images.unsplash.com/photo-1533468680125-4a4442b881d7" alt="Guardabarros">
+                    <h3>Guardabarros</h3>
+                    <p>Guardabarros moldeado para una máxima protección contra los escombros en el camino.</p>
+                    <span>$50.00</span>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <button class="next" onclick="moverCarrusel(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Inyección de Termoplásticos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
